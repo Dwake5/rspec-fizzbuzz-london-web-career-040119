@@ -2,15 +2,15 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(int)
   if int % 15 == 0
-   return "FizzBuzz"
+   "FizzBuzz"
   end
 
   if int % 5 == 0
-   return "Buzz"
+   "Buzz"
   end
 
   if int % 3 == 0
-   return "Fizz"
+   "Fizz"
   end
 
 end
